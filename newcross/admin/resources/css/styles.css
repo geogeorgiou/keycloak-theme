@@ -1,0 +1,76 @@
+.login-pf body {
+    background: url(../img/bg-login.jpg) center center / cover no-repeat fixed;;
+}
+
+#kc-header-wrapper {
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* .login-pf-page {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+} */
+
+
+.pf-c-form-control {
+    border: 0.0625rem solid rgb(193, 199, 208);
+    border-radius: 0.5rem;
+    background-color: transparent;
+    outline-width: 0px;
+    font-family: Poppins-Regular;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* padding: 0.75rem 1rem; */
+}
+
+.pf-c-form-control:focus {
+    border: 0.125rem solid rgb(40, 233, 198);
+}
+
+.pf-c-button.pf-m-primary {
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(0, 40, 88);
+    background-color: rgb(94, 238, 212);
+    font-family: Poppins-SemiBold;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.75rem;
+}
+
+.pf-c-button.pf-m-primary:active {
+    background-color: rgb(201, 249, 241);
+}
+
+div.kc-logo-text {
+    background-image: url(../img/keycloak-logo-text.png);
+    background-size: 100%;
+}
+
+
+@media (max-width: 767px) {
+
+    div.kc-logo-text {
+        margin: auto;
+    }
+
+    #kc-header-wrapper {
+        padding: 0;
+    }
+}
+
+
+/*********** Loading ***********/
+
+.loading {
+    background-color: #00609D;
+    border: 1px solid rgb(94, 238, 212);
+}
