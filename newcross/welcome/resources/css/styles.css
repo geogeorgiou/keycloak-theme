@@ -1,0 +1,27 @@
+body {
+	background: url(../img/bg.jpg) center center / cover no-repeat fixed;
+}
+
+.welcome-header {
+    color: #ffffff;
+}
+
+.welcome-form input {
+    border: 0;
+    font-family: Poppins-SemiBold;
+    border-bottom: solid 1px rgb(0, 40, 88);
+}
+
+.welcome-form input:focus {
+    border-bottom: solid 1px rgb(94, 238, 212);
+}
+
+.error {
+    color: #e30a0b;
+    border-color: #e30a0b;
+}
+
+.success {
+    color: #37b24d;
+    border-color: #37b24d;
+}
