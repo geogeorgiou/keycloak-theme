@@ -1,5 +1,4 @@
-Creating Themes
-===============
+# Creating Themes
 
 Themes are used to configure the look and feel of login pages and the account management console.
 
@@ -14,11 +13,20 @@ the server when making changes.
 
 See the theme section in the [Server Developer Guide](https://www.keycloak.org/docs/latest/server_development/#_themes) for more details about how to create custom themes.
 
-Overriding the built-in templates
----------------------------------
+## Overriding the built-in templates
 
 While creating custom themes, especially when overriding templates, it may be useful to use the built-in templates as
 a reference. These can be found within the theme directory of `../lib/lib/main/org.keycloak.keycloak-themes-19.0.3.jar`, which can be opened using any
 standard ZIP archive tool.
 
 **Built-in themes should not be modified directly, instead a custom theme should be created.**
+
+## Developing a theme
+
+To start hacking theme execute command
+
+```
+bin/kc.sh start-dev --spi-theme-welcome-theme=newcross
+```
+
+then you'll be able set newcross theme as preset instead of setting that up in the Admin Console.
