@@ -117,7 +117,7 @@ th.w-40 {
 .onoffswitch .onoffswitch-inner {
   display: block;
   margin-left: -100%;
-  transition: margin 0.3s ease-in 0s;
+  transition: margin 0.15s ease-in 0s;
   width: 200%;
 }
 .onoffswitch .onoffswitch-inner > span {
@@ -135,17 +135,18 @@ th.w-40 {
 }
 .onoffswitch .onoffswitch-switch {
   background-color: #ffffff;
-  border: 1px solid #aaa;
+
   border-radius: 25px;
-  bottom: 2px;
+  bottom: 4px;
   margin: 0;
   position: absolute;
-  right: 24px;
+  right: 20px;
+  margin-right: 4px !important;
 
-  top: 2px;
-  transition: all 0.3s ease-in 0s;
-  -webkit-transition: all 0.3s ease-in 0s;
-  width: 22px;
+  top: 4px;
+  transition: all 0.15s ease-in 0s;
+  -webkit-transition: all 0.15s ease-in 0s;
+  width: 18px;
 }
 .onoffswitch .onoffswitch-inner .onoffswitch-active {
   background-color: #5eeed4;
@@ -260,11 +261,10 @@ th.w-40 {
 .realm-dropmenu {
   display: none;
   cursor: pointer;
-  position: absolute;
-  top: 60px;
+  position: relative;
   left: 0;
   right: 0;
-  z-index: 999;
+  padding-top: 5px;
   padding-bottom: 0.5rem;
   background: #fff;
 }
@@ -393,17 +393,15 @@ h1 i {
   border-radius: 25px;
   background: #f5f6f6;
   padding: 0.5rem 2rem;
-  border: solid 1px #f5f6f6;
+  border: none !important;
   outline: none !important;
 }
 .btn-default:hover {
   background: #93f4e2;
-  border: solid 1px #28e9c6;
 }
 .btn-default:disabled {
   background: #c1c7d0 !important;
   color: #5c5d66 !important;
-  border: none;
 }
 
 /* Time selector */
