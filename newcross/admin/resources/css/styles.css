@@ -111,6 +111,7 @@ th.w-40 {
   cursor: pointer;
   display: block;
   overflow: hidden;
+
   width: 62px;
 }
 
@@ -135,18 +136,16 @@ th.w-40 {
 }
 .onoffswitch .onoffswitch-switch {
   background-color: #ffffff;
-
   border-radius: 25px;
-  bottom: 4px;
   margin: 0;
   position: absolute;
-  right: 20px;
-  margin-right: 4px !important;
-
-  top: 4px;
+  right: 22px;
+  margin-right: 4px;
+  top: 5px;
   transition: all 0.15s ease-in 0s;
   -webkit-transition: all 0.15s ease-in 0s;
-  width: 18px;
+  width: 16px;
+  height: 16px;
 }
 .onoffswitch .onoffswitch-inner .onoffswitch-active {
   background-color: #5eeed4;
