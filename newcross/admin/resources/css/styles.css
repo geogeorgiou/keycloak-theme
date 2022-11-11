@@ -65,7 +65,22 @@ th.w-35 {
 th.w-40 {
   width: 40%;
 }
-
+a {
+  color: #002858;
+}
+input[type="radio"] {
+  accent-color: #0062a2;
+  margin-top: 8px;
+  align-self: center;
+}
+input[type="checkbox"] {
+  accent-color: #0062a2;
+  margin-top: 8px;
+  align-self: center;
+}
+td.kc-sorter {
+  margin-top: 6px !important;
+}
 /*********** Loading ***********/
 
 .loading {
@@ -111,7 +126,7 @@ th.w-40 {
   cursor: pointer;
   display: block;
   overflow: hidden;
-
+  border: none;
   width: 62px;
 }
 
@@ -141,7 +156,7 @@ th.w-40 {
   position: absolute;
   right: 22px;
   margin-right: 4px;
-  top: 5px;
+  top: 4px;
   transition: all 0.15s ease-in 0s;
   -webkit-transition: all 0.15s ease-in 0s;
   width: 16px;
